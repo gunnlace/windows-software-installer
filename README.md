@@ -35,15 +35,15 @@ agents/
 
 ### Claude Code / Claude 桌面端
 
-复制到 skills 目录。仓库名是 `computer-novice-skill`，但**目标目录名必须是 `windows-software-installer`**，与 `SKILL.md` 中的 `name` 一致，否则不会被识别：
+复制到 skills 目录，目录名需与 `SKILL.md` 中的 `name` 一致，否则不会被识别：
 
 ```bash
 # 对所有项目生效
-git clone https://github.com/gunnlace/computer-novice-skill.git \
+git clone https://github.com/gunnlace/windows-software-installer.git \
   ~/.claude/skills/windows-software-installer
 
 # 或只对单个项目生效
-git clone https://github.com/gunnlace/computer-novice-skill.git \
+git clone https://github.com/gunnlace/windows-software-installer.git \
   <your-project>/.claude/skills/windows-software-installer
 ```
 
