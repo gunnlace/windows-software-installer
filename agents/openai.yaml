@@ -1,0 +1,6 @@
+interface:
+  display_name: "下载软件"
+  short_description: "为 Windows 新手安全指导软件下载、安装与常见问题排查"
+  default_prompt: "使用 $windows-software-installer 帮我安全地在 Windows 上下载并安装软件。"
+policy:
+  allow_implicit_invocation: true
