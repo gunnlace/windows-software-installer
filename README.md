@@ -39,11 +39,11 @@ agents/
 
 ```bash
 # 对所有项目生效
-git clone https://github.com/<your-name>/windows-software-installer.git \
+git clone https://github.com/gunnlace/windows-software-installer.git \
   ~/.claude/skills/windows-software-installer
 
 # 或只对单个项目生效
-git clone https://github.com/<your-name>/windows-software-installer.git \
+git clone https://github.com/gunnlace/windows-software-installer.git \
   <your-project>/.claude/skills/windows-software-installer
 ```
 
